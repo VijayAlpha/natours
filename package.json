@@ -1,0 +1,46 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "learing node.js exprees mongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "SET NODE_ENV='production' && nodemon server.js",
+    "debug": "ndb server.js",
+    "open": "npm run open:postman && npm run open:vscode && npm run open:file",
+    "open:postman": "C:/Users/Vijay/AppData/Local/Postman/postman.exe ",
+    "open:vscode": "code .",
+    "open:file": "start F:/Course/Back-end/Node.js"
+  },
+  "author": "VIJAY M",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-rate-limit": "^5.2.6",
+    "helmet": "^4.6.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.11",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.16",
+    "pug": "^3.0.2",
+    "slugify": "^1.4.5",
+    "validator": "^13.1.17",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.5",
+    "prettier": "^2.0.5"
+  }
+}
